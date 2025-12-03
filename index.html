@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DAWLab - Your Digital Audio Workstation Laboratory. Download now for Windows, macOS, and Linux.">
+    <title>DAWLab - Digital Audio Workstation Laboratory</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>DAWLab</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#download">Download</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Welcome to DAWLab</h1>
+                <p class="hero-subtitle">Your Digital Audio Workstation Laboratory</p>
+                <p class="hero-description">
+                    Create, collaborate, and innovate with the next generation of music production software.
+                    Built for musicians, producers, and audio engineers.
+                </p>
+                <div class="hero-cta">
+                    <a href="#download" class="btn btn-primary">Download Now</a>
+                    <a href="#features" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-placeholder">
+                    <svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="400" height="300" rx="8" fill="url(#gradient)"/>
+                        <path d="M50 150 L80 120 L110 140 L140 100 L170 130 L200 110 L230 140 L260 120 L290 150 L320 130 L350 160" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                        <circle cx="80" cy="120" r="5" fill="white"/>
+                        <circle cx="140" cy="100" r="5" fill="white"/>
+                        <circle cx="200" cy="110" r="5" fill="white"/>
+                        <circle cx="260" cy="120" r="5" fill="white"/>
+                        <circle cx="320" cy="130" r="5" fill="white"/>
+                        <defs>
+                            <linearGradient id="gradient" x1="0" y1="0" x2="400" y2="300" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#667eea"/>
+                                <stop offset="1" stop-color="#764ba2"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="section-container">
+            <h2 class="section-title">Powerful Features</h2>
+            <p class="section-subtitle">Everything you need to create professional audio</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎵</div>
+                    <h3>Audio Recording</h3>
+                    <p>Record and edit multi-track audio with professional-grade tools and effects.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🎛️</div>
+                    <h3>Built-in Mixer</h3>
+                    <p>Powerful mixing console with unlimited tracks, sends, and routing options.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🎹</div>
+                    <h3>Virtual Instruments</h3>
+                    <p>Access a comprehensive library of high-quality virtual instruments and synths.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🔄</div>
+                    <h3>Version Control</h3>
+                    <p>Track project changes with built-in version control and collaboration features.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">☁️</div>
+                    <h3>Cloud Sync</h3>
+                    <p>Seamlessly sync your projects across all your devices with cloud storage.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3>Modern Interface</h3>
+                    <p>Beautiful, intuitive interface designed for maximum productivity and creativity.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="section-container">
+            <h2 class="section-title">Download DAWLab</h2>
+            <p class="section-subtitle">Available for Windows, macOS, and Linux</p>
+            
+            <div class="download-grid">
+                <div class="download-card">
+                    <div class="download-icon">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4 4h7v7H4V4zm0 9h7v7H4v-7zm9-9h7v7h-7V4zm0 9h7v7h-7v-7z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>Windows</h3>
+                    <p class="version">Version 1.0.0</p>
+                    <p class="requirements">Windows 10 or later</p>
+                    <button class="btn btn-download" onclick="downloadForWindows()">
+                        Download for Windows
+                    </button>
+                </div>
+                
+                <div class="download-card">
+                    <div class="download-icon">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z" fill="currentColor"/>
+                            <path d="M2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                        </svg>
+                    </div>
+                    <h3>macOS</h3>
+                    <p class="version">Version 1.0.0</p>
+                    <p class="requirements">macOS 11 or later</p>
+                    <button class="btn btn-download" onclick="downloadForMac()">
+                        Download for macOS
+                    </button>
+                </div>
+                
+                <div class="download-card">
+                    <div class="download-icon">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <path d="M12 2v20M2 12h20" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Linux</h3>
+                    <p class="version">Version 1.0.0</p>
+                    <p class="requirements">Ubuntu 20.04+ / Debian 10+</p>
+                    <button class="btn btn-download" onclick="downloadForLinux()">
+                        Download for Linux
+                    </button>
+                </div>
+            </div>
+            
+            <div class="download-note">
+                <p>By downloading DAWLab, you agree to our Terms of Service and Privacy Policy.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-container">
+            <h2 class="section-title">About DAWLab</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        DAWLab is a modern digital audio workstation designed for the next generation of music creators.
+                        We combine powerful professional tools with an intuitive interface that makes music production
+                        accessible to everyone.
+                    </p>
+                    <p>
+                        Built with cutting-edge technology, DAWLab offers seamless collaboration features, cloud
+                        synchronization, and version control—bringing software development best practices to music production.
+                    </p>
+                    <p>
+                        Whether you're a beginner exploring music production or a professional producer working on your
+                        next hit, DAWLab provides all the tools you need in one comprehensive package.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-subtitle">Have questions? We'd love to hear from you.</p>
+            
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">📧</div>
+                    <h3>Email</h3>
+                    <p><a href="mailto:support@dawlab.io">support@dawlab.io</a></p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">💬</div>
+                    <h3>Community</h3>
+                    <p><a href="#" target="_blank">Join our Discord</a></p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">📖</div>
+                    <h3>Documentation</h3>
+                    <p><a href="#" target="_blank">View Docs</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DAWLab</h3>
+                    <p>Digital Audio Workstation Laboratory</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#download">Download</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Updates</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 DAWLab. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
